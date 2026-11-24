@@ -1,0 +1,16 @@
+# WRDS data is licensed to you and must not be published
+data/
+# row level outputs and weights are derived from licensed quotes: keep them local
+results/models/*.parquet
+results/models/*.pt
+results/archive_v1_rate_input/*.parquet
+results/archive_v1_rate_input/*.pt
+# test and run artefacts
+data_mock/
+results_mock/
+run_log.txt
+*.log
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
